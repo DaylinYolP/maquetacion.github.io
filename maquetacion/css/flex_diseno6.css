@@ -1,0 +1,89 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+header{
+    background-color: rgb(79, 79, 79);
+    height: 200px;
+}
+.contenedor{
+    margin: auto;
+    height: 1200px;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(56, 55, 55);
+    height: 200px;
+}
+nav{
+    display: flex;
+    height: 250px;
+}
+.nav1{
+    background-color: rgb(95, 51, 35);
+    width: 33.3%;
+}
+.nav2{
+    background-color: rgb(61, 30, 19);
+    width: 33.3%;
+}
+.nav3{
+    background-color: rgb(56, 17, 2);
+    width: 33.3%;
+}
+main{
+    height: 150px;
+    display: flex;
+}
+#main1{
+    background-color: rgb(92, 57, 46);
+    width: 50%;
+}
+#main2{
+    background-color: rgb(124, 72, 56);
+    width: 50%;
+}
+aside{
+    height: 300px;
+    display: flex;
+}
+#aside1{
+    background-color: rgb(65, 31, 18);
+    width: 85%;
+}
+#aside2{
+    background-color: rgb(117, 63, 42);
+    width: 15%;
+}
+#ultima_seccion{
+    height: 200px;
+    background-color: rgb(149, 97, 73);
+}
+footer{
+    height: 300px;
+    display: flex;
+}
+#footer1{
+    width: 15%;
+    background-color: rgb(124, 72, 56);
+
+}
+#footer2{
+    width: 85%;
+    background-color: rgb(115, 86, 74);
+}

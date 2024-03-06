@@ -1,0 +1,81 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+header{
+    background-color: rgb(255, 220, 188);
+    height: 250px;
+}
+nav{
+    background-color: beige;
+    height: 100px;
+    display: flex;
+}
+.verde, .celeste, .gris{
+    width: 33.33%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+.verde{
+    background-color: rgb(89, 128, 89);
+}
+.gris{
+    background-color: rgb(151, 151, 151);
+}
+.celeste{
+    background-color: rgb(84, 122, 122);
+}
+main{
+    background-color: rgb(182, 224, 210);
+    height: 500px;
+}
+#main_cafe, #main_azul{
+    width: 50%;
+}
+#main_cafe{
+    background-color: rgb(128, 97, 77);
+}
+#main_azul{
+    background-color: rgb(139, 146, 177);
+}
+#art1, #art2, #art3, #art4, #art5, #art6{
+    width: 16.66%;
+}
+#art1, #art3, #art5{
+    background-color: rgb(255, 235, 205);
+}
+#art2, #art4, #art6{
+    background-color: rgb(255, 215, 167);
+}
+#seccion_final{
+    background-color: rgb(187, 156, 116);
+    height: 250px;
+    display: flex;
+}
+footer{
+    background-color: rgb(136, 96, 96);
+    height: 100px;
+}

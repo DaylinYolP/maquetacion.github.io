@@ -1,0 +1,71 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 350px 125px 500px 50px ;
+    grid-template-areas: 
+     'enc enc enc enc' 
+     'pg1 pg2 pg3 pg4'
+     'sec art art as'
+     'pie pie pie pie'
+     ;
+}
+header{
+    grid-area: enc;
+    background-color: rgb(255, 233, 201);
+}
+#pg1{
+    grid-area: pg1;
+    background-color: rgb(247, 211, 158);
+}
+#pg2{
+    grid-area: pg2;
+    background-color: rgb(226, 201, 169);
+}
+#pg3{
+    grid-area: pg3;
+    background-color: rgb(247, 211, 158);
+}
+#pg4{
+    grid-area: pg4;
+    background-color: rgb(226, 201, 169);
+}
+#sec{
+    grid-area: sec;
+    background-color: antiquewhite;
+}
+article{
+    grid-area: art;
+    background-color: rgb(253, 217, 169);
+}
+#as{
+    grid-area: as;
+    background-color: antiquewhite;
+}
+footer{
+    grid-area: pie;
+    background-color: burlywood;
+}

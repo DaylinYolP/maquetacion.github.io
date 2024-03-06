@@ -1,0 +1,86 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    margin: auto;
+    flex-direction: column;
+    height: 900px;
+}
+header{
+    height: 200px;
+    display: flex;
+}
+.inicio1, .inicio4, .inicio7{
+    background-color: rgb(160, 64, 75);
+    width: 11.11%;
+}
+.inicio2, .inicio5, .inicio8{
+    background-color: rgb(200, 91, 104);
+    width: 11.11%;
+}
+.inicio3, .inicio6, .inicio9{
+    background-color: rgb(174, 58, 72);
+    width: 11.11%;
+
+}
+nav{
+    height: 300px;
+    display: flex;
+}
+.nav_izquierda{
+    background-color: rgb(143, 43, 60);
+    width: 66.66%;
+}
+.nav_derecha{
+    background-color: rgb(188, 94, 109);
+    width: 33.33%;
+}
+main{
+    height: 400px;
+    display: flex;
+}
+.contenido1{
+    background-color: rgb(200, 91, 104);
+    width: 44.44%;
+}
+.contenido2{
+    background-color: rgb(160, 64, 75);
+    width: 55.56%;
+}
+aside{
+    height: 200px;
+    background-color: rgb(176, 66, 66);
+}
+.articulo_final{
+    height: 150px;
+    display: flex;
+}
+#articulo1, #articulo2, #articulo3{
+    width: 33.33%;
+}
+#articulo1, #articulo3{
+    background-color: rgb(188, 94, 109);
+}
+#articulo2{
+    background-color: rgb(143, 43, 60);
+}
+footer{
+    height: 200px;
+    display: flex;
+}

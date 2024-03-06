@@ -1,0 +1,76 @@
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+header{
+    background-color: rgb(156, 2, 84);
+    height: 200px;
+}  
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 250px;
+}
+#n1, #n3{
+    background-color: rgb(80, 0, 60);
+}
+#n2{
+    background-color: rgb(121, 30, 78);
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
+}
+#sec1{
+    background-color: rgb(156, 2, 84);
+}
+#sec2{
+    background-color: rgb(107, 13, 63);
+
+}
+article{
+    display: flex;
+    height: 300px;
+}
+.art1{
+    background-color: rgb(80, 0, 60);
+    width: 80%;
+}
+.art2{
+    background-color: rgb(160, 3, 86);
+    width: 20%;
+}
+span{
+    display: grid;
+    height: 200px;
+    background-color: rgb(121, 30, 78);
+}
+footer{
+    display: flex;
+    height: 300px;
+}
+#as1{
+    width: 20%;
+    background-color: rgb(156, 2, 84);
+}
+#as2{
+    width: 80%;
+    background-color: rgb(80, 0, 60);
+
+}

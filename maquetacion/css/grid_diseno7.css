@@ -1,0 +1,86 @@
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    width: 1440;
+    color: white;
+    font-size: 28px;
+    margin: auto;
+}
+header{
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+#sec1, #sec4, #sec7{
+    background-color: rgb(76, 66, 136);
+
+}
+#sec2, #sec5, #sec8{
+    background-color: rgb(48, 41, 87);
+}
+#sec3, #sec6, #sec9{
+    background-color: rgb(61, 48, 136);
+}
+.menu1{
+    height: 300px;
+    display: flex;
+}
+.s1{
+    background-color: rgb(94, 81, 167);
+    width: 66.6%;
+}
+.s2{
+    background-color: rgb(25, 21, 51);
+    width: 33.3%;
+}
+main{
+    height: 400px;
+    display: flex;
+}
+#art1{
+    background-color: rgb(89, 80, 141);
+    width: 33.3%;
+}
+#art2{
+    background-color: rgb(76, 66, 136);
+    width: 66.6%;
+}
+aside{
+    height: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.span1, .span3{
+    background-color: rgb(44, 34, 109);
+}
+.span2{
+    background-color: rgb(76, 66, 136);
+}
+#rt1{
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(103, 95, 153);
+}
+footer{
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}

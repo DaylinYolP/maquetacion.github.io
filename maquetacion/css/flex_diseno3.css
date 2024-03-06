@@ -1,0 +1,83 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /*100vh = 100% del alto de la pantalla*/
+    font-size: 28px;
+    color: white;
+
+}
+header{
+    height: 20%;
+    background-color: cadetblue; 
+    text-align: center;
+ 
+}
+#principal{
+    height: 50%;
+    background-color: rgb(44, 53, 29);
+    display: flex;
+    text-align: center;
+
+}
+main{
+    flex-grow: 3;
+
+}
+#derecha{
+    flex-grow: 1;
+    background-color: rgb(26, 38, 43);
+   
+    
+}
+#sesion{
+    background-color: darkslategrey;
+    height: 50%;
+    text-align: center;
+
+}
+.menu{
+    height: 50%;
+    text-align: center;
+
+
+}
+#final{
+    height: 20%;
+    display: flex;
+
+}
+.sec_final{
+    flex-grow: 1;
+    
+}
+#final1, #final3{
+    background-color: rgb(36, 68, 68);
+}
+#final2, #final4{
+    background-color: rgb(53, 53, 53);
+}
+footer{
+    background-color: cadetblue;
+    height: 10%;
+
+}

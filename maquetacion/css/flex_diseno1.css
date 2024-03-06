@@ -1,0 +1,96 @@
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+    width: 100%;
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    width: 1440px;
+    margin: auto;
+}
+header{
+    height: 350px;
+    background-color: rgb(54, 105, 107);
+    color: white;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 28px;
+}
+.contenido{
+    display: flex;
+    height: 900px;
+}
+.tam_contenido, footer{
+    height: 900px;
+    color: white;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 28px;
+
+}
+nav{
+    background-color: rgb(55, 27, 82);
+    height: 900px;
+    width: 25%;
+}
+main{
+    background-color: rgb(112, 55, 81);
+    height: 900px;
+    width: 50%;
+}
+aside{
+    background-color: rgb(53, 1, 1);
+    width: 25%;
+}
+footer{
+    background-color: rgb(53, 65, 40);
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

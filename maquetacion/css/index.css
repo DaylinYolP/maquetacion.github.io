@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(../img/img2.jpg);
+}
+.pagina_inicio{
+    height: 250px;
+    background-color: rgba(0, 32, 58, 0.7);
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+h2{
+    padding: 1px;
+    background-color: rgba(0, 32, 58, 0.7);
+    color: white;
+}
+.ul_menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    background-color: rgb(80, 1, 67);
+    overflow: hidden;
+    font-size: 18px;
+}
+.li_menu{
+    float: left;
+    width: 14.28%;
+}
+.li_menu a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.li_menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}

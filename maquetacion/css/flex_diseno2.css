@@ -1,0 +1,75 @@
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+
+.contenedor{
+    margin: auto;
+    height: 1000px;
+    flex-direction: column;
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+header{
+    background-color: rgb(83, 8, 23);
+    color: white;
+    height: 350px;
+    text-align: center;
+    font-size: 28px;
+}
+nav{
+    display: flex;
+    height: 125px;
+}
+.seccion_uno, .seccion_dos, .seccion_tres, .seccion_cuatro{
+    width: 25%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+.seccion_uno, .seccion_tres{
+    background-color: rgb(153, 100, 100);
+   
+}
+.seccion_dos, .seccion_cuatro{
+    background-color: rgb(138, 67, 67);
+   
+}
+main{
+    height: 500px;
+    display: flex;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+
+}
+#articulo{
+    width: 50%;
+    background-color: rgb(65, 13, 13);
+    text-align: center;
+    font-size: 28px;
+}
+.contenido{
+    width: 25%;
+    background-color: rgb(146, 97, 97);
+}
+footer{
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(95, 68, 68);
+}

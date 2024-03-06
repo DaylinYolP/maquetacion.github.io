@@ -1,0 +1,71 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+header{
+    background-color: rgb(77, 3, 52);
+    height: 400px;
+}
+.contenedor{
+    margin: auto;
+    height: 1440px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+nav{
+    background-color: rgb(112, 19, 58)
+}
+main{
+    height: 250px;
+    display: flex;
+}
+#seccion1, #seccion2, #seccion3{
+    width: 33.3%;
+}
+#seccion1{
+    background-color: rgb(95, 40, 63)
+}
+#seccion2{
+    background-color: rgb(87, 23, 50)
+}
+#seccion3{
+    background-color: rgb(109, 40, 70)
+}
+article{
+    height: 800px;
+    background-color: rgb(70, 25, 44);
+}
+aside{
+    height: 240px;
+    display: flex;
+}
+#seccion_final1, #seccion_final3, #seccion_final5{
+    background-color: rgb(80, 12, 34);
+    width: 16.6%;
+
+}
+#seccion_final2, #seccion_final4, #seccion_final6{
+    background-color: rgb(114, 21, 50);
+    width: 16.6%;
+
+}
+footer{
+    background-color: rgb(54, 6, 21);
+}

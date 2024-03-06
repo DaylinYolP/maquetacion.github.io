@@ -1,0 +1,77 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    width: 1440;
+    color: white;
+    font-size: 28px;
+    margin: auto;
+}
+header{
+    background-color: rgb(221, 79, 27);
+    height: 250px;
+    text-align: center;
+}
+#pg1, #pg2, #pg3{
+    height: 100px;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#pg1{
+    background-color: rgb(179, 66, 26);
+
+}
+#pg2{
+    background-color: rgb(131, 43, 11);
+
+}
+#pg3{
+    background-color: rgb(160, 43, 0);
+}
+span{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+}
+#art1{
+    background-color: rgb(136, 59, 36);
+}
+#art2{
+    background-color: rgb(196, 89, 57);
+
+}
+aside{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    height: 250px;
+}
+#sec1, #sec3, #sec5{
+    background-color: chocolate;
+}
+#sec2, #sec4, #sec6{
+    background-color: rgb(170, 74, 50);
+}
+footer{
+    height: 100px;
+    background-color: rgb(165, 91, 42);
+}

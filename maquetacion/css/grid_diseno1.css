@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 350px 900px 50px ;
+    grid-template-areas: 
+     'enc enc enc enc' 
+     'menu cont cont login'
+     'pie pie pie pie'
+     ;
+}
+
+header{
+    grid-area: enc;
+    text-align: center;
+    background-color: #408d92;
+}
+#menu{
+    grid-area: menu;
+    background-color: #427275;
+   
+}
+#contenido{
+    grid-area: cont;
+    background-color: #244a4d;
+   
+}
+#login{
+    grid-area: login;
+    background-color: #0e373a;
+}
+footer{
+    grid-area: pie;
+    background-color: #2398a0;
+    
+}
+
+
+

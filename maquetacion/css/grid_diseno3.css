@@ -1,0 +1,73 @@
+h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+body{
+    background-image: url(../img/imgfondo.jpg);
+}
+#boton_regresar{
+    height: 30px;
+    background-color: rgba(105, 102, 102, 0.4);
+}
+.btn_regresar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 20% 25% 25% 20% 10% ;
+    grid-template-areas: 
+     'enc enc enc enc' 
+     'cont cont cont menu'
+     'cont cont cont sesion'
+     'art1 art2 art3 art4'
+     'pie pie pie pie'
+     ;
+}
+header{
+    grid-area: enc;
+    background-color: rgb(35, 12, 56);
+}
+main{
+    grid-area: cont;
+    background-color: rgb(62, 44, 80);
+}
+nav{
+    grid-area: menu;
+    background-color: rgb(51, 10, 88);
+}
+aside{
+    grid-area: sesion;
+    background-color: rgb(79, 53, 104);
+}
+
+
+
+#art1{
+    grid-area: art1;
+    background-color: rgb(36, 0, 70);
+}
+#art2{
+    grid-area: art2;
+    background-color: rgb(58, 0, 112);
+}
+#art3{
+    grid-area: art3;
+    background-color: rgb(36, 0, 70);
+}
+#art4{
+    grid-area: art4;
+    background-color: rgb(27, 12, 41);
+}
+footer{
+    grid-area: pie;
+    background-color: rgb(49, 17, 80);
+
+}
